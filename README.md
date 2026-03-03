@@ -1,5 +1,7 @@
 # Repro: Ktor 3 + Netty `netty-codec-http:4.1.129.Final` Returns 400 for Routes with M and J
 
+There’s an [article](https://habr.com/ru/articles/1006164/) about the debugging process and the story behind it.
+
 This repository reproduces a request parsing issue when using:
 
 - Ktor 3 (also reproducible on every jvm framework or engine).
